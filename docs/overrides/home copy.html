@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block tabs %}
+{{ super() }}
+
+{% block extrahead %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+{% endblock %}
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width">
+
+<style>
+    
+</style>
+<div class="home">
+    <div class="Xournal" id="Xournal">
+		<div class="title">
+			<h1>Take handwritten notes with ease.</h1>
+			<h2>From solving a physics problem to making travel diaries.</h2>
+		</div>
+		<p>Xournal++ (/ˌzɚnl̟ˌplʌsˈplʌs/) is an open-source and cross-platform note-taking software that is fast, flexible, and functional. A modern rewrite and a more feature-rich version of the wonderful <span><a class ="Xournal-link" href="https://sourceforge.net/projects/xournal/">Xournal</a></span> program.</p>
+		<img src="img/Physics Problem.png">
+		<div class="download-hyperlink upper-button">
+			<h2>Available on MacOS, Windows, and Linux</h2>
+			<a href="{{ 'installation/' | url }}">Download Xournal++</a>
+		</div>
+	</div>
+
+	<div class="feature-list">
+        {% for feat in page.meta.features %}
+        {% set chirality = "left" if loop.index % 2 == 0 else "right" %}
+        <div class="feature feature-{{chirality}}">
+            <div class="feature-text">
+                <h2>{{ feat.title }}</h2>
+                <div class="feature-description-container">
+                    {% for description in feat.bullets %}
+                    <div class="feature-description">
+                        <p class="bullet-point">|</p><p>{{description}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="feature-link">
+                    <a href="{{feat.doc_link | default('#') }}" class="documentation-link">Learn more</a>
+                    <a href="{{feat.video_link | default('#') }}" class="video-link">Watch demonstration video</a>
+                </div>
+            </div>
+            <img src="/img/{{feat.image}}" />
+        </div>
+        {% endfor %}
+		{# include 'home/feature-showcase-content.md' #}
+	</div>
+	<div class="download-hyperlink bottom-button">
+		<a href="{{ 'installation/' | url }}">Get it now</a>
+	</div>
+</div>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}
+{% endblock %}
