@@ -11,21 +11,21 @@
 </figure>
 
 <figure markdown>
-  ![Jupiter](/assets/planetaryimage/Jupiter/Jupiter.jpg){width="300",loading=lazy} 
+  ![Jupiter](/assets/planetaryimage/Jupiter/Jupiter.JPG){width="300",loading=lazy} 
   <figcaption>Jupiter</figcaption>
 </figure>
 
 ##Saturn
 
 <figure markdown>
-  ![Saturn](/assets/planetaryimage/Saturn/Saturn.jpg){width="300",loading=lazy} 
+  ![Saturn](/assets/planetaryimage/Saturn/Saturn.JPG){width="300",loading=lazy} 
   <figcaption>Saturn</figcaption>
 </figure>
 
 ##Venus
 
 <figure markdown>
-  ![Venus](/assets/planetaryimage/Venus/Venus.jpg){width="300",loading=lazy} 
+  ![Venus](/assets/planetaryimage/Venus/Venus.JPG){width="300",loading=lazy} 
   <figcaption>Venus</figcaption>
 </figure>
 
