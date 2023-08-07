@@ -17,7 +17,7 @@ powerful GPU. Therefore, compressing the entire video's information and focusing
 
 ## A universal solver
 <figure markdown>
-  ![Meteor](/project/Meteordetection/example.GIF){width="600",loading=lazy} 
+  ![Meteor](/project/Meteordetection/example.gif){width="600",loading=lazy} 
   <figcaption>Meteor in the sky</figcaption>
 </figure>
 We know that different meteor recording cameras have varying fields of view, resolutions, and background objects. 
@@ -26,14 +26,14 @@ chapter, we need to extract meteor information as comprehensively as possible an
 
 ## Actually a vedio = a data cube
 <figure markdown>
-  ![data_cube](/project/Meteordetection/data_cube.PNG){width="500"}
+  ![data_cube](/project/Meteordetection/data_cube.png){width="500"}
   <figcaption>data_cube</figcaption>
 </figure>
 Actually, a video is a data cube extends in the time dimension(as frames). Through the data cube(In matlab or numpy, 
 we treat it as a three-dimensional matrix), we can obtain the variation of each pixel over time, as shown in figure above.
 Moreover, only part of the frames contain meteor information as shown in the figure below.
 <figure markdown>
-  ![meteor_frame](/project/Meteordetection/meteor_frame.PNG){width="500"}
+  ![meteor_frame](/project/Meteordetection/meteor_frame.png){width="500"}
   <figcaption>Meteor show up from frame 30 to frame 60 in the video</figcaption>
 </figure>
 These frames constitute the video along the time dimension, but only a few pixels experience significant changes in their 
@@ -42,7 +42,7 @@ Consequently, In a meteor capture scene, pixels can be roughly categorized into 
 Background sky pixels, meteor path pixels, moon or bright objects pixels, as illustrated in figure below. Below is a brief 
 analysis of the variation in these four representative types of pixels:
 <figure markdown>
-  ![different_pixel](/project/Meteordetection/different_pixel.PNG){width="800"}
+  ![different_pixel](/project/Meteordetection/different_pixel.png){width="800"}
   <figcaption>Four types of pixels</figcaption>
 </figure>
 (a) Background ground pixels: Due to minimal illumination, they contain the least information and show minimal variation 
