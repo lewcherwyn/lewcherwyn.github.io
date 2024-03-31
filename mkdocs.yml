@@ -56,6 +56,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/lewcherwyn
       name: Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/xuewen-liu-17462a2b5/
+      name: LinkedIn
 
 extra_css:
   - stylesheets/extra.css
