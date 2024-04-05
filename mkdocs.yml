@@ -2,10 +2,10 @@ site_name: Xuewen Liu
 
 nav:
   - Home: index.md
+  - CV : cv.md
   - Project:
       - Rapid Meteor Detection: project/Meteordetection.md
       - My Tiny Observatory: project/Mytinyobservatory.md
-  - CV : cv.md
   - Gallery: 
       - Deep Space Imaging: gellery/Deepspaceimaging.md
       - Planetary Imaging: gellery/Planetaryimaging.md
