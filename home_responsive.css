@@ -1,0 +1,164 @@
+@media (min-width: 2001px){
+	
+	.Homepage {
+		max-width: none;
+		margin-bottom: 18vh;
+	}
+
+	.title h1 {
+		font-size: 100px;
+	}
+	
+	.title h2 {
+		font-size: 65px;
+	}
+	
+	.Homepage p {
+		font-size: 50px;
+	}
+
+}
+
+
+
+@media (max-width: 1367px){
+	
+	.home {
+		max-width: none;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 25px;
+		width: 100%;
+	}
+	
+	.Homepage {
+		max-width: 975px;
+		margin: 39vh auto 18vh auto;
+
+	}
+	
+	.title {
+		height: auto;
+		margin-bottom: 23vh;
+		margin-left: 2vh;
+		margin-right: 3vh;
+	}
+	.title h1 {
+		font-size: 68px;
+	}
+	
+	.title h2 {
+		font-size: 49px;
+	}
+	
+	.Homepage p {
+		font-size: 41px;
+	}
+	
+	.download-hyperlink h2{
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+
+	.upper-button a {
+		font-size: 24px;
+		padding: 7px 16px;
+	}
+
+	.bottom-button {
+		margin: 150px 0px 50px 0px;
+	}
+	
+}
+	
+@media (max-width: 1219px){
+	
+	.home {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.Homepage p {
+		margin-bottom: 25px;
+	}
+	
+	.Homepage {
+		margin-bottom: 75vh;
+	}
+	
+	
+}
+	
+@media (max-width: 1050px){
+	.title{
+		margin-bottom: 29vh;
+	}
+	.title h1 {
+		font-size: 70px;
+	}
+	
+	.title h2 {
+		font-size: 40px;
+	}
+	
+	.Homepage p {
+		font-size: 32px;
+		margin-bottom: 25px;
+	}
+	
+	
+}
+	
+@media (max-width: 800px){
+	.home {
+		background-image: url(background2.jpg);
+	}
+	
+	.title {
+		margin-bottom: 20vh;
+		top: 51vh;
+	}
+	.title h1 {
+		font-size: 40px;
+	}
+	
+	.title h2 {
+		font-size: 30px;
+	}
+	
+	.Homepage p {
+		font-size: 22px;
+	}
+}
+	
+@media (max-width: 670px){
+	.Homepage {
+		margin: 77vh auto 0vh auto;
+	}
+	.home {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.title h1 {
+		font-size: 42px;
+	}
+	
+	.title h2 {
+		font-size: 30px;
+	}
+	
+	.Homepage p {
+		font-size: 18px;
+	}
+
+}
+
+
+@media (max-width: 400px){
+
+	.md-footer {
+		width: 100%;
+		position: absolute;
+	}
+}
