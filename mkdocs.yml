@@ -4,6 +4,8 @@ nav:
   - Home: index.md
   - CV : cv.md
   - Project:
+      - Multicore-Fiber Wavefront Sensor: project/Multicore-fibeWFs.md
+      - Twisted Metasurfaces: project/Twistedmetasurfaces.md
       - Rapid Meteor Detection: project/Meteordetection.md
       - My Tiny Observatory: project/Mytinyobservatory.md
   - Gallery: 
@@ -74,4 +76,4 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-copyright: Copyright &copy; 2023 Xuewen Liu
+copyright: Copyright &copy; 2025 Xuewen Liu
